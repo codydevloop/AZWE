@@ -26,9 +26,9 @@ class Nav extends React.Component {
         <Router>
           <header>
             <MDBNavbar style={navColor} dark expand="md">
-              {/* <MDBNavbarBrand href="/">
+              <MDBNavbarBrand href="/">
                 <strong>AZWE</strong>
-              </MDBNavbarBrand> */}
+              </MDBNavbarBrand>
               <MDBNavbarToggler onClick={this.onClick} />
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav>
@@ -50,10 +50,10 @@ class Nav extends React.Component {
                 </MDBNavbarNav> */}
                 <MDBNavbarNav>
                 <MDBNavItem>
-                    <MDBNavLink to="#">Tryouts</MDBNavLink>
+                    <MDBNavLink to="#">Contact</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Community Events</MDBNavLink>
+                    <MDBNavLink to="#">Calendar</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBIcon fab icon="facebook-square" size='3x' className="white-text"/>
