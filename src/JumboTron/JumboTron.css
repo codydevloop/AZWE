@@ -1,0 +1,28 @@
+.brand {
+    display: flex;
+    border: 1px solid white;
+
+}
+
+.sytleSoftball{
+    color: yellow;
+}
+
+.softball{
+    font-size: 40px;
+    color: white;
+    border: 1px solid;
+  
+}
+.whiteFont {
+    color: white;
+}
+
+.winningEdge{
+   
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    border: 1px solid;
+   
+}
